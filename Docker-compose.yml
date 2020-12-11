@@ -41,7 +41,7 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
   nginx:
-    restart: always
+    # restart: always
     build: 
       dockerfile: Dockerfile.dev
       context: ./nginx
